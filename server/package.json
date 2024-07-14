@@ -4,6 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "install": "npm install --legacy-peer-deps",
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
